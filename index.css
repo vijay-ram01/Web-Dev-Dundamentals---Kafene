@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6F7FB;
+}
+
+#header {
+    box-shadow: 0 2px 4px #ccc;
+    width: 100%;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+#header-wrapper {
+    display: flex;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    margin-right: 36px;
+}
+#logo img {
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+}
+#logo p {
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+}
+nav a, #logout-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+}
+#logout-btn {
+    margin-left: auto;
+}
+
+main {
+    margin-top: 100px;
+}
+
+/* =============================================================== */
+#ordersA {
+    border-bottom: 2px solid #00E091;
+    color: #00E091;
+}
+
+/* ============================ Order Section Styles ============================== */
+#orders-section {
+    padding: 0 8% 4%;
+}
+#order-details {
+    display: flex;
+}
+#filter-content {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+#filter-content label {
+    margin-top: 12px;
+}
+#order-table {
+    width: 1120px;
+    border-collapse: collapse;
+}
+#order-table th {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+
+.tableRow {
+    background-color: #fff;
+    border-bottom: 4px solid #F6F7FB;
+}
+.tableRow td {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.orderID, .time, .amount {
+    color: #8c8c8c;
+}
+
+.hide {
+    display: none;
+}

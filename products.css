@@ -1,0 +1,52 @@
+/* =============================================================== */
+#ordersA {
+    border-bottom: 2px solid #ffffff;
+    color: rgba(0,0,0,.8);
+}
+#productsA {
+    border-bottom: 2px solid #00E091;
+    color: #00E091;
+}
+
+/* ============================ Products Section Styles ============================== */
+#products-section {
+    padding: 0 8% 4%;
+}
+#products-details {
+    display: flex;
+}
+#filter-content {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+#filter-content label {
+    margin-top: 12px;
+}
+#products-table {
+    width: 1120px;
+    border-collapse: collapse;
+}
+#products-table th {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+
+.tableRow {
+    background-color: #fff;
+    border-bottom: 4px solid #F6F7FB;
+}
+.tableRow td {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.productID, .medicineBrand, .unitPrice, .stock {
+    color: #8c8c8c;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafene</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./index.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header id="header">
+        <div id="header-wrapper">
+            <div id="logo">
+                <img src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="Kafene Log">
+                <p>Kafene</p>
+            </div>
+            <nav>
+                <a href="./login.html">Orders</a>
+                <a href="./login.html">Products</a>
+                <a href="./login.html">Users</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="login-Section">
+            <form id="login-form" action="submit">
+                <h1>Sign In</h1>
+                <input class="credientials" name="username" type="text" placeholder="Enter Username">
+                <input class="credientials" name="password" type="password" placeholder="Enter Password">
+                <a id="login-btn">Login</a>
+            </form>
+        </section>
+    </main>
+
+    <script src="./login.js"></script>
+    
+</body>
+</html>
